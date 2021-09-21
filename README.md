@@ -1,6 +1,11 @@
-# todo_list
-
-A new Flutter project.
+## start before
+- 安装flutter
+- 用flutter doctor或者flutter doctor -v检测运行环境
+- 安装java环境，配置java_home
+- 安装android studio
+- 安装Xcode(mac)
+- 安装vs code
+- 按需安装plugins
 
 ## Getting Started
 
