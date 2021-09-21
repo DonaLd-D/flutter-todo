@@ -4,6 +4,7 @@ import 'package:todo_list/todo_list.dart';
 
 void main() {
   SystemChrome.setEnabledSystemUIOverlays([]);
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(MyApp());
 }
 
@@ -12,10 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Todo List',
-      home: Scaffold(
-        appBar: AppBar(title: Text('Todo List')),
-        body: TodoList(),
-      ),
+      home: TodoList(),
     );
   }
 }
